@@ -1,0 +1,14 @@
+:root {
+  --ff-heading: "Expletus Sans", sans-serif;
+  --ff-text: "Orbitron", sans-serif;
+
+  --fw-heading-500: 500;
+  --fw-text-500: 500;
+  --fw-text-700: 700;
+
+  --color-primary:#A9BCD0;
+  --color-secondary: #58A4B0;
+  --color-accent-1: #373F51;
+  --color-accent-2: #D8DBE2;
+  --color-bg: #1B1B1E;
+}
