@@ -5,11 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>About Me Card</title>
-		<!-- Favicon -->
-		<link rel="apple-touch-icon" sizes="180x180" href="Images/favicon_io/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="Images/favicon_io/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="Images/favicon_io/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest" />
 		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,24 +13,41 @@
 			rel="stylesheet" />
 		<!-- CSS -->
 		<link rel="stylesheet" href="styles.css" />
+		<!-- Icons -->
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 		<!-- JavaScript -->
 		<script defer src="index.js"></script>
 	</head>
 	<body>
-    <div class="container">
-      <div class="wrapper">
-        <header class="header">
-          <img src="Images/blogger.png" alt="Blogger image" class="header-img">
-        </header>
-        <div class="content">
-          <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorem numquam eius velit omnis architecto, in eum reprehenderit doloremque iusto?</p>
-        </div>
-        <footer class="social">
-          <img src="Images/instagram.svg" alt="Instagram icon" class="social-icon social-icon__instagram">
-          <img src="Images/linkedin.svg" alt="LinkedIn icon" class="social-icon social-icon__linkedin">
-          <img src="Images/github.svg" alt="Github icon" class="social-icon social-icon__github">
-        </footer>
-      </div>
-    </div>
-  </body>
+		<div class="container">
+			<div class="wrapper">
+				<header class="header">
+					<ion-icon name="person-circle-outline" class="header-img"></ion-icon>
+					<h1 class="header-heading">About Me</h1>
+				</header>
+				<div class="content">
+					<p class="content-text">
+						I am a <span class="content-text__accent">self-taught, aspiring Frontend devloper</span>, with a passion for
+						creating and developing projects that people can enjoy.
+					</p>
+					<p class="content-text">
+						The journey of learning in any industry never stops; and that is something I am very excited about - to hone
+						and develop my skills.
+					</p>
+				</div>
+				<footer class="social">
+					<a href="https://www.instagram.com/_imtiyaaz_isaacs/" target="_blank">
+						<ion-icon name="logo-instagram" class="social-icon social-icon__instagram"></ion-icon>
+					</a>
+					<a href="https://www.linkedin.com/in/muhammad-imtiyaaz-isaacs-73405b24b/" target="_blank">
+						<ion-icon name="logo-linkedin" class="social-icon social-icon__linkedin"></ion-icon>
+					</a>
+					<a href="https://github.com/Imtiyaaz22" target="_blank">
+						<ion-icon name="logo-github" class="social-icon social-icon__github"></ion-icon>
+					</a>
+				</footer>
+			</div>
+		</div>
+	</body>
 </html>
