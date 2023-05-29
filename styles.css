@@ -12,3 +12,21 @@
   --color-accent-2: #D8DBE2;
   --color-bg: #1B1B1E;
 }
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--color-bg);
+}
+
