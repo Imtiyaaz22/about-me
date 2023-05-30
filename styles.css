@@ -7,16 +7,19 @@
 	--fw-text-700: 700;
 
 	--fs-300: 3rem;
+	--fs-250: 2rem;
 	--fs-200: 1.6rem;
 
-	--color-primary: #a9bcd0;
-	--color-secondary: #58a4b0;
+	--color-primary: #58a4b0;
+	--color-secondary: #a9bcd0;
 	--color-accent: #d8dbe2;
 	--color-bg-1: #1b1b1e;
 	--color-bg-2: #373f51;
+	--color-grey: #333;
 
 	--img-size: 6rem;
-	--img-size-icon: 4rem;
+	--social-icon: 4rem;
+	--logo-icon: 3.5rem;
 
 	--border-sm: 1rem;
 
@@ -73,6 +76,7 @@ html {
 	width: var(--img-size);
 	height: var(--img-size);
 	display: block;
+	color: var(--color-secondary);
 }
 
 .header-heading {
@@ -94,6 +98,11 @@ html {
 	font-weight: var(--fw-text-500);
 	font-size: var(--fs-200);
 	color: var(--color-accent);
+	letter-spacing: 1.5px;
+}
+
+.content-text__accent {
+	color: var(--color-primary);
 }
 
 .content-text:nth-child(even){
@@ -110,8 +119,16 @@ html {
 }
 
 .social-icon {
-	width: var(--img-size-icon);
-	height: var(--img-size-icon);
+	width: var(--social-icon);
+	height: var(--social-icon);
 	display: block;
 	cursor: pointer;
+	color: var(--color-secondary);
+	transform: scale(1);
+	transition: all .5s ease-out; 
+}
+
+.social-icon:hover {
+	color: var(--color-primary);
+	transform: scale(1.1);
 }
