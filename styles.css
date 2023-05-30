@@ -132,3 +132,49 @@ html {
 	color: var(--color-primary);
 	transform: scale(1.1);
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 75em) {
+	html {
+		font-size: 56.25%;
+	}
+
+	.wrapper {
+		justify-content: center;
+		gap: calc(var(--spacer-lg) * 1.25);
+
+		height: 65%;
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 56.25em) {
+	html  {
+		font-size: 50%;
+	}
+
+	.wrapper {
+		justify-content: center;
+		gap: calc(var(--spacer-lg) * 1.25);
+
+		height: 55%;
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 37.5em) {
+	.wrapper {
+		height: 65%;
+	}
+}
+
+@media screen and (max-width: 25em){
+	html {
+		font-size: 43.75%;
+	}
+
+	.social {
+		gap: var(--spacer-sm);
+	}
+}
