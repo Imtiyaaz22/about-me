@@ -165,13 +165,19 @@ html {
 
 @media screen and (max-width: 37.5em) {
 	.wrapper {
-		height: 65%;
+		height: 75%;
+		width: 80%;
 	}
 }
 
 @media screen and (max-width: 25em){
 	html {
 		font-size: 43.75%;
+	}
+
+	.wrapper {
+		height: 90%;
+		width: 90%;
 	}
 
 	.social {
